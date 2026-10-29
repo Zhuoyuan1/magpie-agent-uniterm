@@ -1,0 +1,22 @@
+{
+  "name": "magpie-agent-uniterm",
+  "version": "0.1.0",
+  "description": "Magpie agent plugin: route uniTerm's built-in AI agent through magpie's gateway",
+  "type": "module",
+  "files": [
+    "agent.js",
+    
+    
+    "README.md"
+  ],
+  "keywords": [
+    "magpie",
+    "magpie-agent",
+    "uniterm"
+  ],
+  "license": "MIT",
+  "magpie": {
+    "agent": "./agent.js",
+    "icon": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='7'%20fill='%2317191f'/%3E%3Cpath%20d='M8%2011l5%205-5%205'%20fill='none'%20stroke='%2340c98a'%20stroke-width='2.4'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%3Cpath%20d='M16.5%2021.5h8'%20fill='none'%20stroke='%23e8eaed'%20stroke-width='2.4'%20stroke-linecap='round'/%3E%3C/svg%3E"
+  }
+}
